@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Greenden</title>
+     <!-- Tailwind CSS CDN Link -->
+     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css">
+</head>
+<body>
+    <!-- Responsive Navbar -->
+    <nav class="bg-green-100 p-3 flex items-center justify-between shadow-2xl sticky top-0 z-10">
+        <h1 class="text-2xl">Greenden</h1>
+        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor"
+            class="w-8 h-8 md:hidden">
+            <path stroke-linecap="round" stroke-linejoin="round" d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5" />
+        </svg>
+        <ul class="text-gray-600  gap-5 hidden md:flex">
+            <li>
+                <a class="hover:underline hover:text-black" href="./index.html">Home</a>
+            </li>
+            <li>
+                <a class="hover:underline hover:text-black" href="#">Product</a>
+            </li>
+            <li>
+                <a class="hover:underline hover:text-black" href="./contact.html">Contact</a>
+            </li>
+        </ul>
+    </nav>
+    <!-- Our Product -->
+     <section class="p-4 text-center">
+            <h1 class="text-3xl font-bold">Our Products</h1>
+            <input class=" p-2 m-3 border border-black container" style="width: 60%;" placeholder="Search for a product">
+            <div class="grid grid-cols-2 md:grid-cols-4 mt-5 gap-5">
+                <div>
+                    <img class="inline hover:shadow-xl transform hover:-translate-y-2" src="./imgs/bestseller_1.jpg"
+                        alt="Rose Pot">
+                    <h1>Rose Plant</h1>
+                    <p>$20</p>
+                </div>
+                <div>
+                    <img class="inline hover:shadow-xl transform hover:-translate-y-2" src="./imgs/bestseller_2.jpg"
+                        alt="Lily Plant">
+                    <h1>Lilly Plant</h1>
+                    <p>$30</p>
+                </div>
+                <div>
+                    <img class="inline hover:shadow-xl  transform hover:-translate-y-2" src="./imgs/bestseller_3.jpg"
+                        alt="Green Plant">
+                    <h1>Green Plant</h1>
+                    <p>$40</p>
+                </div>
+                <div>
+                    <img class="inline hover:shadow-xl  transform hover:-translate-y-2" src="./imgs/bestseller_4.jpg"
+                        alt="Spider Plant">
+                    <h1>Spider Plant</h1>
+                    <p>$50</p>
+                </div>
+                <div>
+                    <img class="inline hover:shadow-xl  transform hover:-translate-y-2" src="./imgs/bestseller_5.jpg"
+                        alt="Gar Plant">
+                    <h1>Butrose Plant</h1>
+                    <p>$50</p>
+                </div>
+                <div>
+                    <img class="inline hover:shadow-xl  transform hover:-translate-y-2" src="./imgs/bestseller_6.jpg"
+                        alt="Spider Plant">
+                    <h1>Purple Plant</h1>
+                    <p>$50</p>
+                </div>
+                <div>
+                    <img class="inline hover:shadow-xl  transform hover:-translate-y-2" src="./imgs/bestseller_7.jpg"
+                        alt="Spider Plant">
+                    <h1>Leaf Plant</h1>
+                    <p>$50</p>
+                </div>
+                <div>
+                    <img class="inline hover:shadow-xl  transform hover:-translate-y-2" src="./imgs/bestseller_8.jpg"
+                        alt="Spider Plant">
+                    <h1>Cactus Plant</h1>
+                    <p>$20</p>
+                </div>
+            </div>
+
+     </section>
+     <!-- Footer -->
+    <section class="bg-green-100 p-10 flex flex-col gap-5">
+        <h1 class="text-4xl font-bold">Greenden</h1>
+        <p>The Standard chunk of lorem ipsum used since the 1500s is reproduced below for those interest.</p>
+        <p>@ 2025 Greenday.com</p>
+    </section>
+</body>
+</html>
